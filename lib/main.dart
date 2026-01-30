@@ -8,7 +8,7 @@ void main() {
     debugShowCheckedModeBanner: false,
       home: Scaffold(
           appBar: AppBar(
-            title: Text('Sergio CBTis 114 '),
+            title: Text('Sergio CBTis # 114 '),
             centerTitle: true,
           ),
           body: Center(
