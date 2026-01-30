@@ -7,8 +7,17 @@ class MiTienda extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(title: Text('Mi tienda Sergio 114'), centerTitle: true),
+        appBar: AppBar(
+
+          backgroundColor:Colors.blue ,
+          leading: Icon(Icons.add_a_photo),
+          leadingWidth: 100,
+          title: Text('Mi tienda Sergio 114'), 
+          centerTitle: true
+          ),
+        
         body: Center(child: Text('Lista de Productos Disponibles')),
       ),
     );
